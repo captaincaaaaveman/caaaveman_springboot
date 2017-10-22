@@ -1,4 +1,4 @@
-package hello;
+package net.hurcomb.domain;
 
 public class Greeting {
 

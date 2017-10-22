@@ -1,4 +1,4 @@
-package net.hurcomb.config;
+/*package net.hurcomb.config;
 
 import javax.sql.DataSource;
 
@@ -16,4 +16,4 @@ public class DatabaseConfig {
     public DataSource dataSource() {
         return DataSourceBuilder.create().build();
     }
-}
+}*/
