@@ -2,12 +2,12 @@ package net.hurcomb.domain;
 
 import java.util.List;
 
-public class Markdown {
+public class Blog {
 
 	String markdown;
 	List<String> tags;
 	
-	public Markdown(String markdown, List<String> tags) {
+	public Blog(String markdown, List<String> tags) {
 		this.markdown = markdown;
 		this.tags = tags;
 	}

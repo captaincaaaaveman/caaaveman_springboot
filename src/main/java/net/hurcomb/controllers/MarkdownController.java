@@ -3,7 +3,7 @@ package net.hurcomb.controllers;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicLong;
 
-import net.hurcomb.domain.Markdown;
+import net.hurcomb.domain.Blog;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,8 +17,8 @@ public class MarkdownController {
     private static final String template = "# Markdown";
 
     @RequestMapping("/markdown")
-    public Markdown greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        Markdown md = new Markdown( template, Arrays.asList( "Java", "SpringBoot" ) );
+    public Blog greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        Blog md = new Blog( template, Arrays.asList( "Java", "SpringBoot" ) );
         return md;
     }
 }
